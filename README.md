@@ -61,14 +61,13 @@ Business Lesson: Model assumptions matter. Violations don't always break a model
 
 🛠️ Technical Implementation
 Project Structure
-text
+
 ├── README.md
 ├── linear_regression_analysis.ipynb    # Main analysis notebook
-├── field_data_processor.py              # Data cleaning module
-├── data_ingestion.py                     # Database connection module
-├── validate_data.py                       # Data validation tests
-├── requirements.txt                         # Dependencies
-└── sampled_field_df.csv                     # Processed dataset (excluded in .gitignore)
+├── field_data_processor.py             # Data cleaning module
+├── data_ingestion.py                   # Database connection module
+└── validate_data.py                    # Data validation tests
+
 Key Functions
 Function	Purpose	Business Application
 get_correlation()	Calculate Pearson correlation	Quantify feature-target relationships
