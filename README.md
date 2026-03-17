@@ -1,4 +1,4 @@
-# Maji Ndogo Crop Yield Analysis: Linear Regression Project 🌾📈
+# 🌾 Maji Ndogo Crop Yield Analysis: Linear Regression Project 
 
 
 This project applies simple linear regression to understand how environmental factors influence crop yields in the fictional region of Maji Ndogo. By modelling relationships between features like pollution levels, average temperature, and standardized crop yields, this analysis demonstrates the foundational machine learning workflow—from data exploration to model evaluation and diagnostics. While the dataset is fictional, the methodology reflects the rigorous approach required when deploying predictive models in real-world business environments.
