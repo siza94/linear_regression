@@ -87,7 +87,6 @@ Residual Diagnostics: Histograms and scatter plots to validate assumptions
 
 Interpretation: Translating coefficients and metrics into business insights
 
----
 
 ## 📊 Visualizations
 
@@ -133,19 +132,19 @@ Business Lesson: Model assumptions matter. Violations don't always break a model
 
 
 ## 💡 Key Takeaways
-🧪 Hypothesis testing: Not all features are predictive—validate before investing in complex models
+- Hypothesis testing: Not all features are predictive—validate before investing in complex models
 
-📊 Visualization first: Always plot your data before modeling
+- Visualization first: Always plot your data before modeling
 
-📈 Evaluation matters: R², MAE, MSE, and RMSE tell different stories about model performance
+- Evaluation matters: R², MAE, MSE, and RMSE tell different stories about model performance
 
-🔍 Train-test split: Models must prove themselves on unseen data
+- Train-test split: Models must prove themselves on unseen data
 
-🧩 Residual analysis: Diagnosing model assumptions prevents blind trust in predictions
+- Residual analysis: Diagnosing model assumptions prevents blind trust in predictions
 
-🏗️ Modular design: Reusable functions enable rapid experimentation across features
+- Modular design: Reusable functions enable rapid experimentation across features
 
-📉 Simple models first: Linear regression provides interpretable baselines before advancing to complex algorithms
+- Simple models first: Linear regression provides interpretable baselines before advancing to complex algorithms
 
 
 ## 🔍 How This Translates to Production
@@ -165,7 +164,4 @@ Sithsaba Zantsi
 Data Engineer | Data Science Mentor
 
 📜 License
-This project is for educational purposes and does not hold any proprietary data or licensing constraints. The dataset is fictional and created for learning purposes by ExploreAI Academy.
-
-🙏🏽 Acknowledgments
-Special thanks to ExploreAI Academy and ALX for providing the curriculum and guidance. Gratitude to the open-source community for the incredible tools that makeprojects like this possible—pandas, scikit-learn, matplotlib, and countless others.
+This project is for educational purposes and does not hold any proprietary data or licensing constraints. The dataset is fictional and created for learning purposes by ALX and ExploreAI Academy.
