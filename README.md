@@ -21,7 +21,6 @@ This project applies simple linear regression to understand how environmental fa
 
 - **Modular function** design for reusability across different features and datasets
 
----
 
 ## 🔧 Technologies Used
 
@@ -34,7 +33,6 @@ This project applies simple linear regression to understand how environmental fa
 | Visualization       | Matplotlib                                       |
 | Environment         | Jupyter Notebook, SQLite                         |
 
----
   
 ## 🧪 Use Case Scenario
 
@@ -57,6 +55,7 @@ Model evaluation metrics assessed predictive power
 
 
 ### Real-WorldBusiness Questions
+
 - Agriculture	What environmental factors drive crop yields?
 
 - Banking	What variables predict loan default risk?
@@ -67,7 +66,6 @@ Model evaluation metrics assessed predictive power
 
 - Manufacturing	What conditions predict equipment failure?
 
----
 
 ## 🔧 System Architecture
 
@@ -91,7 +89,7 @@ Interpretation: Translating coefficients and metrics into business insights
 
 ---
 
-📊 Visualizations
+## 📊 Visualizations
 
 ### Relationship Between Pollution and Crop Yield
 <p align="center"> <img src="images/pollution_regression.png" width="600"> <br /> <em>Scatter plot with regression line showing weak negative relationship between pollution levels and standardized crop yield</em> </p>
@@ -102,7 +100,6 @@ Interpretation: Translating coefficients and metrics into business insights
 ### Residual Diagnostics
 <p align="center"> <img src="images/residual_histogram.png" width="400"> <img src="images/residuals_vs_predictions.png" width="400"> <br /> <em>Residual histogram (left) and residuals vs. predictions scatter plot (right) reveal model assumptions and fit quality</em> </p>
 
----
 
 ## ❄️ Key Findings
 1. Average Temperature vs. Standard Yield
@@ -134,7 +131,6 @@ Residual Std Dev: ~0.107 (prediction errors average ~0.11 units)
 
 Business Lesson: Model assumptions matter. Violations don't always break a model, but they inform how much we trust predictions
 
----
 
 ## 💡 Key Takeaways
 🧪 Hypothesis testing: Not all features are predictive—validate before investing in complex models
@@ -151,7 +147,6 @@ Business Lesson: Model assumptions matter. Violations don't always break a model
 
 📉 Simple models first: Linear regression provides interpretable baselines before advancing to complex algorithms
 
----
 
 ## 🔍 How This Translates to Production
 In a real data team, this skillset enables me to:
@@ -162,6 +157,8 @@ In a real data team, this skillset enables me to:
 - Diagnosing model assumptions	Avoiding costly mistakes when models fail silently
 - Communicating results	Translating coefficients and metrics into stakeholder language
 - Iterative improvement	Using diagnostics to guide feature engineering and model selection
+
+---
 
 👨🏽‍💻 Author
 Sithsaba Zantsi
