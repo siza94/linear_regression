@@ -70,7 +70,7 @@ Model evaluation metrics assessed predictive power
 ---
 
 ## 🔧 System Architecture
-<p align="center"> <img src="images/regression_workflow.png" width="600"> <br /> <em>Linear Regression Workflow: From Data to Insights</em> </p>
+
 This project follows a structured machine learning workflow:
 
 Data Ingestion: SQLite database connection using SQLAlchemy
@@ -153,21 +153,6 @@ Business Lesson: Model assumptions matter. Violations don't always break a model
 
 ---
 
-📂 Project Structure
-
-├── README.md
-├── linear_regression_analysis.ipynb    # Main analysis notebook
-├── field_data_processor.py             # Data cleaning module
-├── data_ingestion.py                   # Database connection module
-├── validate_data.py                    # Data validation tests
-└── images/                             # Visualization outputs
-   ├── pollution_regression.png
-   ├── evaluation_metrics.png
-   ├── residual_histogram.png
-   └── residuals_vs_predictions.png
-
----
-
 ## 🔍 How This Translates to Production
 In a real data team, this skillset enables me to:
 
@@ -184,5 +169,6 @@ Data Engineer | Data Science Mentor
 
 📜 License
 This project is for educational purposes and does not hold any proprietary data or licensing constraints. The dataset is fictional and created for learning purposes by ExploreAI Academy.
+
 🙏🏽 Acknowledgments
 Special thanks to ExploreAI Academy and ALX for providing the curriculum and guidance. Gratitude to the open-source community for the incredible tools that makeprojects like this possible—pandas, scikit-learn, matplotlib, and countless others.
