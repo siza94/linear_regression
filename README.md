@@ -1,4 +1,5 @@
 🌾 Maji Ndogo Crop Yield Analysis: Linear Regression Project
+
 📌 Overview
 This project explores the relationship between environmental factors and standardized crop yields in the fictional region of Maji Ndogo. Using simple linear regression, I investigate whether features such as average temperature and pollution levels can predict agricultural output—a question with direct parallels to real-world challenges in agriculture, finance, retail, and beyond.
 
@@ -9,15 +10,21 @@ While the dataset is fictional, the methodology is production-ready. This reposi
 In any data-driven organization, understanding what drives outcomes is the first step toward optimizing decisions. This project mirrors questions asked daily across industries:
 
 Industry	Business Question	Parallel in This Project
+
 Agriculture	What environmental factors predict crop yield?	Direct application
+
 Banking	What variables predict loan default risk?	Identifying predictive features
+
 Retail	What drives customer spend?	Quantifying relationships
+
 Healthcare	What factors influence patient readmission?	Model interpretability
+
 Manufacturing	What conditions predict equipment failure?	Early warning signals
+
 Linear regression serves as the foundation for all these use cases—interpretable, scalable, and trusted by stakeholders.
 
 🧠 What I Learned
-Core Concepts
+
 Simple Linear Regression: Modeling the relationship between a single predictor and a target variable
 
 Least Squares Method: Finding the line of best fit by minimizing squared errors
@@ -29,13 +36,15 @@ Train-Test Split: Ensuring models generalize to unseen data
 Residual Analysis: Diagnosing model assumptions and identifying improvement opportunities
 
 Technical Implementation
-Python with pandas, numpy, matplotlib, and scikit-learn
 
-Data validation using pytest
+- Python with pandas, numpy, matplotlib, and scikit-learn
+
+- Data validation using pytest
 
 Modular code design for reusability across projects
 
 📊 Key Findings
+
 1. Average Temperature vs. Standard Yield
 Correlation: ~0.00065 (effectively zero)
 
