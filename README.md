@@ -33,7 +33,6 @@ This project applies simple linear regression to understand how environmental fa
 | Statistical Analysis| SciPy (Pearson correlation)                      |
 | Visualization       | Matplotlib                                       |
 | Environment         | Jupyter Notebook, SQLite                         |
-| Others              | IAM Roles, Python scripts, Simulated IoT data    |
 
 ---
   
@@ -41,23 +40,23 @@ This project applies simple linear regression to understand how environmental fa
 
 The analysis explores two key research questions:
 
-- Does average temperature influence crop yield?
+Does average temperature influence crop yield?
 
-Initial visualization suggested no clear linear relationship
+- Initial visualization suggested no clear linear relationship
 
-Correlation analysis confirmed near-zero linear relationship
+- Correlation analysis confirmed near-zero linear relationship
 
-- Does pollution level affect crop yield?
 
-Scatter plots revealed a weak negative linear trend
+Does pollution level affect crop yield?
 
-Linear regression model quantified this relationship
+- Scatter plots revealed a weak negative linear trend
+
+- Linear regression model quantified this relationship
 
 Model evaluation metrics assessed predictive power
 
-These questions mirror real-world business challenges:
 
-### Real-World Domain	Business Question
+### Real-WorldBusiness Questions
 - Agriculture	What environmental factors drive crop yields?
 
 - Banking	What variables predict loan default risk?
@@ -158,10 +157,10 @@ Business Lesson: Model assumptions matter. Violations don't always break a model
 
 ├── README.md
 ├── linear_regression_analysis.ipynb    # Main analysis notebook
-├── field_data_processor.py              # Data cleaning module
-├── data_ingestion.py                     # Database connection module
-├── validate_data.py                       # Data validation tests
-└── images/                                   # Visualization outputs
+├── field_data_processor.py             # Data cleaning module
+├── data_ingestion.py                   # Database connection module
+├── validate_data.py                    # Data validation tests
+└── images/                             # Visualization outputs
    ├── pollution_regression.png
    ├── evaluation_metrics.png
    ├── residual_histogram.png
